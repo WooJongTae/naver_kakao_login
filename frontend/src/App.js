@@ -8,6 +8,7 @@ function App() {
       {/* 추후 버튼 컴포넌트 */}
       <NaverLogin />
       <KakaoButton />
+      <h1>1241</h1>
     </div>
   );
 }
