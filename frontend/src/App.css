@@ -1,0 +1,39 @@
+/* button style 초기화 */
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+  width: 50%;
+  height: 5%;
+  background-color: #9ce8ee;
+  border-color: #9ce8ee;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #8be4eb;
+  border-color: #8be4eb;
+}
+
+button:active {
+  background-color: #7be0e8;
+  border-color: #7be0e8;
+}
+
+/* 화면 구성 초기화 */
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App :not(style) {
+  margin: 10px;
+}
